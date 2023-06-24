@@ -1,0 +1,63 @@
+#VRML_SIM R2023a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/robots/abb/irb/protos/Irb4600-40.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/robots/universal_robots/protos/UR3e.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.14974453649642577 0.03433683566133401 0.9881283092322763 2.695974892728239
+  position 5.528182540283561 -2.5859003333356507 2.9457708713507436
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 6 6
+}
+Irb4600-40 {
+  hidden position_0_0 0.0007096586001173676
+  hidden rotation_1 0 0 0.9999999999999999 0.0007096586002789405
+  hidden position_1_0 0.00015673561529969381
+  hidden linearVelocity_1 -0.0003360768244922857 0.00021410304874503413 5.0162787522508155e-06
+  hidden angularVelocity_1 0.00010763624942182275 -2.9501933806484404e-06 0.007016609001965096
+  hidden rotation_2 0 1 0 0.000156735615621497
+  hidden position_2_0 0.00016100287289078134
+  hidden linearVelocity_2 0.001270973976302544 0.0009444041429503702 -2.4340310063187796e-05
+  hidden angularVelocity_2 0.0001824984048324404 -1.595797675775107e-05 0.0069736035802200995
+  hidden rotation_3 0 1 0 0.0001610028728467537
+  hidden position_3_0 0.0001248997503875334
+  hidden linearVelocity_3 -0.0003603337043342606 0.0013676818714451501 2.1564828057126064e-05
+  hidden angularVelocity_3 0.00019017154743719534 -2.399621382472118e-05 0.006932981695516768
+  hidden rotation_4 1 0 0 0.00012489975182166925
+  hidden position_4_0 1.0807995686525768e-07
+  hidden linearVelocity_4 -3.561438594931839e-05 0.006618218109082956 3.459499695936842e-05
+  hidden angularVelocity_4 0.0014431563376591835 -2.3909538702217865e-05 0.006909509250063887
+  hidden rotation_5 0 1 0 1.0745380149674385e-07
+  hidden position_5_0 -4.443951004878905e-08
+  hidden linearVelocity_5 -4.367115969890653e-06 0.009504069586808907 3.805632937589362e-05
+  hidden angularVelocity_5 0.0014431540325317263 -2.3909284091203213e-05 0.006909424634816969
+  hidden rotation_6 -1 0 0 4.2146848510894035e-08
+  hidden linearVelocity_6 -3.000687145038055e-05 0.010195718675167897 4.580442342687371e-05
+  hidden angularVelocity_6 0.0014426945415805074 -2.3909341923315864e-05 0.0069094436538533035
+  translation 0 1.44 0
+  staticBase TRUE
+}
+UR3e {
+  hidden position_0_0 -3.033605388758076e-05
+  hidden rotation_1 0 0 -1 3.0336056098763268e-05
+  hidden position_1_0 1.774823632388132e-05
+  hidden rotation_2 0 1 0 1.5708137482363238
+  hidden position_2_0 5.549694850165127e-06
+  hidden rotation_3 0 1 0 5.549717385593703e-06
+  hidden position_3_0 -1.7600216810448447e-06
+  hidden rotation_4 0 1 0 1.5707942399783188
+  hidden position_4_0 -4.0521813480492467e-11
+  hidden position_5_0 3.79144371862945e-13
+  translation 0 -1.33 0
+  controller "UR3e"
+}
